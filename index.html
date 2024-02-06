@@ -74,7 +74,7 @@
             </section>
 
             <section>
-                <h3>Choose your favorite Godzilla:</h3>
+                <h3>Pick your favorite Godzilla:</h3>
                 <form>
                     <input type="radio" id="heisei" name="fav_godzilla" value="Godzilla Heisei">
                     <label for="heisei">Godzilla Heisei</label><br>
@@ -91,12 +91,27 @@
                 </form>
             </section>
             <hr>
+            <section>
+                <h3>Choose your favorite Godzilla:</h3>
+                <form>
+                    <select name="godzilla" id="godzilla">
+                        <option value="heisei"> Godzilla Heisei </option>
+                        <option value="shin"> Shin Godzilla </option>
+                        <option value="earth"> Godzilla Earth </option>
+                        <option value="minusone"> Godzilla Minus One </option>
+                        <option value="thermo"> Thermo Godzilla </option>
+                        <option value="gojira"> Gojira </option>
+                    </select>
+                </form>
+            </section>
+            <hr>
             <form>
                 <strong><label for="yourname">Your name:</label></strong><br />
                 <input type="text" id="yourname" name="yourname" placeholder="Your Name"><br />
                 <textarea id="comment" name="Your Comment" rows="4" cols="50"
                     placeholder="Your Comment here"></textarea><br />
                 <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
 
             </form>
         </content>
