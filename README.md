@@ -37,4 +37,4 @@ Credit is welcome ^^
 
 Enjoy discovering the world of Godzilla with Godzilla Showdown!
 
-![Gozilla Power](https://wikizilla.org/w/images/d/df/GvK_-_Godzilla_shoots_a_hole_into_the_surface_of_Earth.gif?20220518173632)
+![Gozilla Power](images/godzilla_banner.gif)
