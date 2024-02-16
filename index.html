@@ -5,241 +5,176 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Godzilla Showdown</title>
     <link rel="icon" type="image/x-icon" href="/images/godzilla.ico" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <header>
-      <h1>Welcome to Godzilla Showdown!</h1>
-      <p>This is website for showcasing some of the most powerfull Godzilla</p>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-    <hr />
-    <main>
-      <content>
-        <section>
-          <h2>Godzilla Heisei</h2>
-          <p>
-            Superhuman Physical Characteristics, Enhanced Senses, Large Size
-            (Type 0), Longevity (Survivor of the Cretaceous era), Camouflage,
-            Underwater Breathing (Type 2) and Natural Weaponry (Teeth, claws and
-            tail)
-          </p>
-          <figure>
-            <img
-              src="https://i.redd.it/xn69e3vfm8h71.jpg"
-              alt="Godzilla Heisei"
-              width="400"
-            />
-          </figure>
-        </section>
+    <div class="container">
+      <header class="sticky">
+        <h1>Welcome to Godzilla Showdown!</h1>
+        <p class="container">
+          This is website for showcasing some of the most powerfull Godzilla
+        </p>
+        <nav>
+          <a class="text-sm" href="#"> Home </a>
+          <a class="text-sm" href="#"> About </a>
+          <a class="text-sm" href="#"> Contact </a>
+        </nav>
+      </header>
+      <main>
+        <content>
+          <div class="container">
+            <section class="card">
+              <figure>
+                <img
+                  src="https://i.insider.com/6568bb9286933e8fdb2e649d?width=600&format=jpeg&auto=webp"
+                  alt="Godzilla Heisei"
+                  class="img-card"
+                />
+              </figure>
+              <h2>Godzilla Heisei</h2>
+              <p>
+                Superhuman Physical Characteristics, Enhanced Senses, Large Size
+                (Type 0), Longevity (Survivor of the Cretaceous era),
+                Camouflage, Underwater Breathing (Type 2) and Natural Weaponry
+                (Teeth, claws and tail)
+              </p>
+            </section>
 
-        <section>
-          <h2>Shin Godzilla</h2>
-          <p>
-            Shin Godzilla went beyond atomic breath and presented audiences with
-            a drastically different version of Godzilla who had more abilities
-            than all previous versions. This Godzilla is capable of shooting
-            atomic rays out of multiple parts of his body, not just his mouth,
-            depending on what form Godzilla takes
-          </p>
-          <figure>
-            <img
-              src="https://m.media-amazon.com/images/I/71crCi45XFL._AC_UF894,1000_QL80_.jpg"
-              alt="Shin Godzilla"
-              height="400"
-            />
-          </figure>
-        </section>
+            <section class="card">
+              <figure>
+                <img
+                  src="https://pbncanvas.com/wp-content/uploads/2022/02/Shin-godzilla-monster-paint-by-numbers.jpg"
+                  alt="Shin Godzilla"
+                  class="img-card"
+                />
+              </figure>
+              <h2>Shin Godzilla</h2>
+              <p>
+                Shin Godzilla went beyond atomic breath and presented audiences
+                with a drastically different version of Godzilla who had more
+                abilities than all previous versions.
+              </p>
+            </section>
 
-        <section>
-          <h2>Godzilla Earth</h2>
-          <figure>
-            <img
-              src="https://static.wikia.nocookie.net/villains/images/1/1f/GodzillaEarth.png"
-              alt="Godzilla Earth"
-              width="400"
-            />
-          </figure>
-        </section>
+            <section class="card">
+              <figure>
+                <img
+                  src="https://i.ytimg.com/vi/UiPfJwQ8pJY/maxresdefault.jpg"
+                  alt="Godzilla Earth"
+                  class="img-card"
+                />
+              </figure>
+              <h2>Godzilla Earth</h2>
+              <p>
+                Godzilla Earth can fire a highly-accelerated charged particle
+                beam called his Atomic Breath (熱線 Nessen, lit. "Heat Ray"),
+                which is capable of piercing even the thickest armor of other
+                monsters.
+              </p>
+            </section>
+          </div>
+          <section class="pick-form">
+            <h3>Pick your favorite Godzilla:</h3>
+            <form>
+              <input
+                type="radio"
+                id="heisei"
+                name="fav_godzilla"
+                value="Godzilla Heisei"
+              />
+              <label for="heisei">Godzilla Heisei</label><br />
+              <input
+                type="radio"
+                id="shin"
+                name="fav_godzilla"
+                value="Shin Godzilla"
+              />
+              <label for="shin">Shin Godzilla</label><br />
+              <input
+                type="radio"
+                id="earth"
+                name="fav_godzilla"
+                value="Godzilla Earth"
+              />
+              <label for="earth">Godzilla Earth</label><br />
+            </form>
+          </section>
 
-        <section>
-          <h2>Godzilla Minus One</h2>
-          <figure>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV7r98P3Emx6ur09Pl9zqaX9q8PSkxoRejWDM8-1x8zjt0Tb6qMwyhJe85ti_WHBwksDA&usqp=CAU"
-              alt="Godzilla Minus One"
-              width="400"
-            />
-          </figure>
-        </section>
+          <section class="pick-form">
+            <h3>Choose your favorite Godzilla:</h3>
+            <form>
+              <select name="godzilla" id="godzilla">
+                <option value="heisei">Godzilla Heisei</option>
+                <option value="shin">Shin Godzilla</option>
+                <option value="earth">Godzilla Earth</option>
+              </select>
+            </form>
+          </section>
 
-        <section>
-          <h2>Thermo Godzilla</h2>
-          <figure>
-            <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3hJKH0jFLgS1wlvAUIA8VeaTqe8virKeCCMkH4KmpFu0Gn-We7-cEnS6SqXL5t9LGKs&usqp=CAU"
-              alt="Thermo Godzilla"
-              width="400"
-            />
-          </figure>
-        </section>
+          <section class="pick-form">
+            <h3>If you have more than one favorite Godzilla, pick here!:</h3>
+            <form>
+              <input
+                type="checkbox"
+                id="heisei"
+                name="fav_godzilla"
+                value="Godzilla Heisei"
+              />
+              <label for="heisei">Godzilla Heisei</label><br />
+              <input
+                type="checkbox"
+                id="shin"
+                name="fav_godzilla"
+                value="Shin Godzilla"
+              />
+              <label for="shin">Shin Godzilla</label><br />
+              <input
+                type="checkbox"
+                id="earth"
+                name="fav_godzilla"
+                value="Godzilla Earth"
+              />
+              <label for="earth">Godzilla Earth</label><br />
+            </form>
+          </section>
 
-        <section>
-          <h2>Gojira</h2>
-          <figure>
-            <img
-              src="https://m.media-amazon.com/images/I/61Gin2R27+L.jpg"
-              alt="Thermo Godzilla"
-              width="400"
-            />
-          </figure>
-        </section>
+          <section>
+            <form class="submit-form">
+              <strong><label for="yourname">Your name:</label></strong
+              ><br />
+              <input
+                type="text"
+                id="yourname"
+                name="yourname"
+                placeholder="Your Name"
+              /><br />
+              <textarea
+                id="comment"
+                name="Your Comment"
+                rows="4"
+                cols="50"
+                placeholder="Your Comment here"
+              ></textarea
+              ><br />
+              <input type="submit" value="Submit" />
+              <input type="reset" value="Clear" />
+            </form>
+          </section>
+        </content>
+      </main>
 
-        <section>
-          <h3>Pick your favorite Godzilla:</h3>
-          <form>
-            <input
-              type="radio"
-              id="heisei"
-              name="fav_godzilla"
-              value="Godzilla Heisei"
-            />
-            <label for="heisei">Godzilla Heisei</label><br />
-            <input
-              type="radio"
-              id="shin"
-              name="fav_godzilla"
-              value="Shin Godzilla"
-            />
-            <label for="shin">Shin Godzilla</label><br />
-            <input
-              type="radio"
-              id="earth"
-              name="fav_godzilla"
-              value="Godzilla Earth"
-            />
-            <label for="earth">Godzilla Earth</label><br />
-            <input
-              type="radio"
-              id="minusone"
-              name="fav_godzilla"
-              value="Godzilla Minus One"
-            />
-            <label for="minusone">Godzilla Minus One</label><br />
-            <input
-              type="radio"
-              id="thermo"
-              name="fav_godzilla"
-              value="Thermo Godzilla"
-            />
-            <label for="thermo">Thermo Godzilla</label><br />
-            <input
-              type="radio"
-              id="gojira"
-              name="fav_godzilla"
-              value="Gojira"
-            />
-            <label for="gojira">Gojira</label><br />
-          </form>
-        </section>
-        <hr />
-        <section>
-          <h3>Choose your favorite Godzilla:</h3>
-          <form>
-            <select name="godzilla" id="godzilla">
-              <option value="heisei">Godzilla Heisei</option>
-              <option value="shin">Shin Godzilla</option>
-              <option value="earth">Godzilla Earth</option>
-              <option value="minusone">Godzilla Minus One</option>
-              <option value="thermo">Thermo Godzilla</option>
-              <option value="gojira">Gojira</option>
-            </select>
-          </form>
-        </section>
-        <hr />
-        <section>
-          <h3>If you have more than one favorite Godzilla, pick here!:</h3>
-          <form>
-            <input
-              type="checkbox"
-              id="heisei"
-              name="fav_godzilla"
-              value="Godzilla Heisei"
-            />
-            <label for="heisei">Godzilla Heisei</label><br />
-            <input
-              type="checkbox"
-              id="shin"
-              name="fav_godzilla"
-              value="Shin Godzilla"
-            />
-            <label for="shin">Shin Godzilla</label><br />
-            <input
-              type="checkbox"
-              id="earth"
-              name="fav_godzilla"
-              value="Godzilla Earth"
-            />
-            <label for="earth">Godzilla Earth</label><br />
-            <input
-              type="checkbox"
-              id="minusone"
-              name="fav_godzilla"
-              value="Godzilla Minus One"
-            />
-            <label for="minusone">Godzilla Minus One</label><br />
-            <input
-              type="checkbox"
-              id="thermo"
-              name="fav_godzilla"
-              value="Thermo Godzilla"
-            />
-            <label for="thermo">Thermo Godzilla</label><br />
-            <input
-              type="checkbox"
-              id="gojira"
-              name="fav_godzilla"
-              value="Gojira"
-            />
-            <label for="gojira">Gojira</label><br />
-          </form>
-        </section>
-        <hr />
-        <section>
-          <form>
-            <strong><label for="yourname">Your name:</label></strong
-            ><br />
-            <input
-              type="text"
-              id="yourname"
-              name="yourname"
-              placeholder="Your Name"
-            /><br />
-            <textarea
-              id="comment"
-              name="Your Comment"
-              rows="4"
-              cols="50"
-              placeholder="Your Comment here"
-            ></textarea
-            ><br />
-            <input type="submit" value="Submit" />
-            <input type="reset" value="Clear" />
-          </form>
-        </section>
-      </content>
-    </main>
-
-    <footer>
-      <p>
-        Thank You for visiting Godzilla Showdown! Created @<time>2024</time>
-      </p>
-    </footer>
+      <footer class="sticky">
+        <p>
+          Thank You for visiting Godzilla Showdown! Created @<time>2024</time>
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
