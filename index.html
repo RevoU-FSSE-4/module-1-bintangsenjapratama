@@ -16,10 +16,10 @@
 
   <body>
     <div>
-      <header class="container-topbar">
+      <header class="container-topbar nav-color sticky">
         <!-- Nav Bar -->
         <div class="navbar nav-color">
-          <div>
+          <div class="navbar nav-color">
             <img
               src="images/godzillaLogo.svg"
               alt="godzilla logo"
@@ -92,103 +92,53 @@
               </p>
             </section>
           </div>
-          <!-- <div>
-            <section class="pick-form">
-              <h3>Pick your favorite Godzilla:</h3>
-              <form>
-                <input
-                  type="radio"
-                  id="heisei"
-                  name="fav_godzilla"
-                  value="Godzilla Heisei"
-                />
-                <label for="heisei">Godzilla Heisei</label><br />
-                <input
-                  type="radio"
-                  id="shin"
-                  name="fav_godzilla"
-                  value="Shin Godzilla"
-                />
-                <label for="shin">Shin Godzilla</label><br />
-                <input
-                  type="radio"
-                  id="earth"
-                  name="fav_godzilla"
-                  value="Godzilla Earth"
-                />
-                <label for="earth">Godzilla Earth</label><br />
-              </form>
-            </section>
-
-            <section class="pick-form">
-              <h3>Choose your favorite Godzilla:</h3>
-              <form>
-                <select name="godzilla" id="godzilla">
-                  <option value="heisei">Godzilla Heisei</option>
-                  <option value="shin">Shin Godzilla</option>
-                  <option value="earth">Godzilla Earth</option>
-                </select>
-              </form>
-            </section>
-
-            <section class="pick-form">
-              <h3>If you have more than one favorite Godzilla, pick here!:</h3>
-              <form>
-                <input
-                  type="checkbox"
-                  id="heisei"
-                  name="fav_godzilla"
-                  value="Godzilla Heisei"
-                />
-                <label for="heisei">Godzilla Heisei</label><br />
-                <input
-                  type="checkbox"
-                  id="shin"
-                  name="fav_godzilla"
-                  value="Shin Godzilla"
-                />
-                <label for="shin">Shin Godzilla</label><br />
-                <input
-                  type="checkbox"
-                  id="earth"
-                  name="fav_godzilla"
-                  value="Godzilla Earth"
-                />
-                <label for="earth">Godzilla Earth</label><br />
-              </form>
-            </section>
-
-            <section>
-              <form class="submit-form">
-                <strong><label for="yourname">Your name:</label></strong
-                ><br />
+          <div class="container-title">
+            <h1>Submit Your Choice</h1>
+          </div>
+          <div class="container-submit">
+            <form>
+              <div class="form-row-1">
                 <input
                   type="text"
                   id="yourname"
                   name="yourname"
-                  placeholder="Your Name"
-                /><br />
+                  placeholder=" Your Name"
+                  class="form-1"
+                />
+                <input
+                  type="text"
+                  id="youremail"
+                  name="youremail"
+                  placeholder=" Your Email"
+                  class="form-1"
+                />
+              </div>
+              <div class="form-row-1">
                 <textarea
                   id="comment"
                   name="Your Comment"
                   rows="4"
                   cols="50"
-                  placeholder="Your Comment here"
-                ></textarea
-                ><br />
-                <input type="submit" value="Submit" />
-                <input type="reset" value="Clear" />
-              </form>
-            </section>
-          </div> -->
+                  placeholder=" Your Comment here"
+                  class="form-2"
+                ></textarea>
+              </div>
+              <div class="form-row-2">
+                <input class="form-1" type="submit" value="Submit" />
+                <input class="form-1" type="reset" value="Clear" />
+              </div>
+            </form>
+          </div>
         </content>
       </main>
 
-      <!-- <footer class="sticky">
-        <p>
-          Thank You for visiting Godzilla Showdown! Created @<time>2024</time>
-        </p>
-      </footer> -->
+      <footer class="container-footer">
+        <div class="footer-style">
+          <p class="footer-style">
+            Thank You for visiting Godzilla Showdown! Created @2024
+          </p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
