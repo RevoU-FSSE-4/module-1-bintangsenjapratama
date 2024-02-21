@@ -1,11 +1,11 @@
 # Godzilla Showdown
 
-**UPDATE : new site here  https://week-02-bintangsenjapratama.netlify.app/**
-
+**UPDATE : new site here https://godzilla-week02-bintang.netlify.app/**
 
 Welcome to Godzilla Showdown! This website repository showcases various Godzilla-type monsters and highlights their incredible power and ability. Whether you are a fan of giant monsters or just curious about the dynamics in the madness of Godzilla universe, this is the place for you.
 
 ## Table of Contents
+
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
@@ -24,9 +24,9 @@ Motivated by the needs to be stronger amongs the kids, they often find Gozilla i
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/RevoU-FSSE-4/module-1-bintangsenjapratama.git
-    ```
+   ```bash
+   git clone https://github.com/RevoU-FSSE-4/module-1-bintangsenjapratama.git
+   ```
 
 2. Open the `index.html` file in your web browser ( Chrome is best )
 
